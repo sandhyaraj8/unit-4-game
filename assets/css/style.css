@@ -1,53 +1,47 @@
-body{
-    background-color: beige
+body {
+  background-color: rgb(241, 241, 241);
 }
 
-
-.container{
-    margin-left: 150px;
-    margin-right: 150px;
-
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
 }
-.rules li{
-    font-size: medium;
-    color:rgb(56, 56, 109);
-   font-weight: bold;
-   line-height: 25px; 
+.rules li {
+  font-size: medium;
+  color: rgb(56, 56, 109);
+  font-weight: bold;
+  line-height: 25px;
 }
 
-
-.crystal{
-    display: flex;
-    justify-content: space-evenly;
-    margin:30px 0 30px 0;
-    
+.crystal {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0 30px 0;
 }
-.flexText{
-    display: flex;
-    justify-content: space-around;
-    padding: 15px 0 15px 0;
-    box-shadow:5px 5px 5px 5px rgba(0,0,0,0.2);
-    color:darkblue;
-    background-color: rgb(198, 223, 215)
+.flexText {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0 15px 0;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  color: darkblue;
+  background-color: rgb(198, 223, 215);
 }
 
-.square{
-    border: 1px solid lightblue ;
-    height:200px;
-    width: 200px;
-    border-radius: 4px;
-    box-shadow:5px 5px 5px rgba(1,1,1,0.5);
-    transition: box-shadow 1s, transform 2s;
-
+.square {
+  border: 1px solid lightblue;
+  /* height: 200px;
+  width: 200px; */
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+  transition: box-shadow 1s, transform 2s;
 }
-.square:hover{
-    box-shadow:15px 15px 15px rgba(1,1,1,0.5);
-    transform: translate(5px,20px);
-    cursor:pointer;
-    transition: box-shadow 1s, transform 1s;
-
+.square:hover {
+  box-shadow: 15px 15px 15px rgba(1, 1, 1, 0.5);
+  transform: translate(5px, 20px);
+  cursor: pointer;
+  transition: box-shadow 1s, transform 1s;
 }
 
-.image{
-    width:50px;
+.image {
+  width: 50px;
 }
